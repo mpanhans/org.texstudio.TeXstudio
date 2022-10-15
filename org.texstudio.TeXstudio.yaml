@@ -86,7 +86,7 @@ modules:
             or the TeX Live Flatpak which you can install by running 'flatpak install
             flathub org\.freedesktop\.Sdk\.Extension\.texlive//21\.08'</p></description><launchable|"
             utilities/texstudio.metainfo.xml
-      - type: shell
+      - type: file
         path: texstudio.sh
     build-commands:
       - install -Dm755 -t ${FLATPAK_DEST}/bin/ ./texstudio.sh
